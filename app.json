@@ -1,5 +1,5 @@
 {
-  "name": "Alist v2",
+  "name": "Alist v3.11.0",
   "description": "Alist on Heroku",
   "keywords": ["Alist"],
   "env": {
@@ -13,7 +13,7 @@
     },
     "ASSETS": {
       "description": "static resources(refer to https://alist-doc.nn.ci/en/docs/setting/config#assets)",
-      "value": "https://npm.elemecdn.com/alist-web@$version/dist/"
+      "value": "https://cdn.wlms.dev/npm/alist-web@$version/dist/"
     }
   },
   "addons": [
@@ -23,6 +23,6 @@
   ],
   "website": "https://github.com/Xhofe/alist",
   "repository": "https://github.com/alist-org/alist-heroku-postgres",
-  "logo": "https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg",
+  "logo": "https://cdn.wlms.dev/gh/alist-org/logo@main/logo.svg",
   "stack": "container"
 }
